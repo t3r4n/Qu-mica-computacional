@@ -1,2 +1,6 @@
-# Qu-mica-computacional
-Procesos de identificación de moléculas para la enzimatización de proteínas asociadas al cáncer de colon.
+# Graph similarity for prioritize molecules with structures similar to effective NS1 inhibitors
+
+Influenza is a viral disease that poses a significant threat to public health, especially in Latin America and other regions of the world. Despite advances in treatment, there are no specific curative medications, and available treatments only relieve symptoms. This highlights the urgent need to develop new antiviral drugs. A key goal in this context is to inhibit the NS1 protein of the Influenza virus, whose effector domain (ED) plays a crucial role in interacting with the host's immune system. Inhibiting this interaction could be a promising strategy for developing new treatments.
+This study focuses on using structure-based virtual screening to identify inhibitors of the NS1 protein using a graph similarity measure we have developed. We perform molecular docking of 33,400 molecules into the effector domain of NS1 and represent the resulting complexes as graphs. From these graphs, we extract topological features that allow us to compare the protein-ligand interactions with known inhibitors.
+
+The expected outcome of this study is the development of a graph similarity measure that will function as a scoring tool for virtual screening. This metric will allow us to prioritize molecules with structures similar to effective NS1 inhibitors, improving the accuracy and efficiency of the computational screening process. We also expect that this similarity measure will be more effective than existing ones, providing a fast and precise way to identify new therapeutic candidates for Influenza
